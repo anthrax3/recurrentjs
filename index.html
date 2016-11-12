@@ -1,0 +1,37 @@
+<html>
+
+<head>
+    <title>RecurrentJS Sentence Memorization Demo</title>
+    <script src="libraries/p5.js"></script>
+    <script src="libraries/p5.dom.js"></script>
+    <script src="libraries/recurrent.js"></script>
+    <script src="sketch.js"></script>
+</head>
+
+<body>
+
+    <h1>Deep Recurrent Nets character generation demo</h1>
+
+    <button id="savemodel">save model</button>
+    <button id="loadmodel">load model</button>
+    <button id="go">start</button>
+
+
+    <h2>Training stats:</h2>
+    <div id="ticktime"></div>
+    <div id="gradclip"></div>
+    <div id="epoch"></div>
+    <div id="ppl"></div>
+
+    <h2>Model samples:</h2>
+    <div id="samples"></div>
+
+    <h2>Greedy argmax prediction:</h2>
+    <div id="argmax"></div>
+
+    <!-- <button id = "loadmodel">load model</button> -->
+
+
+</body>
+
+</html>
